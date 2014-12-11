@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legio.Framework", "Legio.Framework\Legio.Framework.csproj", "{FBD38FD0-F1CA-42FB-8351-102C44BFB02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legio.Recycle", "Legio.Recycle\Legio.Recycle.csproj", "{00F094D0-E9F0-4615-89DF-22DD67FE441C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legio.Core", "Legio.Core\Legio.Core.csproj", "{CC71420F-2108-4400-8ACF-2FB461F600F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9454A380-41BA-40EC-8B8D-DE28BAB97ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legio.Web", "Legio.Web\Legio.Web.csproj", "{E3393BAE-118D-482A-89BD-16A29712991F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModule", "Legio.Web\Modules\TestModule\TestModule.csproj", "{B85BE5D8-C610-4A26-9EFA-BBCA0093667A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sillentium.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Legio.Framework\\Legio.Framework.csproj
+		SccProjectName1 = Legio.Framework
+		SccLocalPath1 = Legio.Framework
+		SccProjectUniqueName2 = Legio.Recycle\\Legio.Recycle.csproj
+		SccProjectName2 = Legio.Recycle
+		SccLocalPath2 = Legio.Recycle
+		SccProjectUniqueName3 = Legio.Core\\Legio.Core.csproj
+		SccProjectName3 = Legio.Core
+		SccLocalPath3 = Legio.Core
+		SccProjectUniqueName4 = Legio.Web\\Legio.Web.csproj
+		SccProjectName4 = Legio.Web
+		SccLocalPath4 = Legio.Web
+		SccProjectUniqueName5 = Legio.Web\\Modules\\TestModule\\TestModule.csproj
+		SccProjectTopLevelParentUniqueName5 = LegioProject.sln
+		SccProjectName5 = Legio.Web/Modules/TestModule
+		SccLocalPath5 = Legio.Web\\Modules\\TestModule
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD38FD0-F1CA-42FB-8351-102C44BFB02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD38FD0-F1CA-42FB-8351-102C44BFB02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD38FD0-F1CA-42FB-8351-102C44BFB02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD38FD0-F1CA-42FB-8351-102C44BFB02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F094D0-E9F0-4615-89DF-22DD67FE441C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F094D0-E9F0-4615-89DF-22DD67FE441C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F094D0-E9F0-4615-89DF-22DD67FE441C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F094D0-E9F0-4615-89DF-22DD67FE441C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC71420F-2108-4400-8ACF-2FB461F600F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC71420F-2108-4400-8ACF-2FB461F600F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC71420F-2108-4400-8ACF-2FB461F600F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC71420F-2108-4400-8ACF-2FB461F600F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3393BAE-118D-482A-89BD-16A29712991F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3393BAE-118D-482A-89BD-16A29712991F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3393BAE-118D-482A-89BD-16A29712991F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3393BAE-118D-482A-89BD-16A29712991F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85BE5D8-C610-4A26-9EFA-BBCA0093667A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85BE5D8-C610-4A26-9EFA-BBCA0093667A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85BE5D8-C610-4A26-9EFA-BBCA0093667A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85BE5D8-C610-4A26-9EFA-BBCA0093667A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B85BE5D8-C610-4A26-9EFA-BBCA0093667A} = {9454A380-41BA-40EC-8B8D-DE28BAB97ACA}
+	EndGlobalSection
+EndGlobal
